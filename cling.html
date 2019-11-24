@@ -1,0 +1,38 @@
+
+<html>
+<head>
+    <title>welcome</title>
+    <link rel="stylesheet" href="styles/class.css">
+    <script src="scripts/popUps.js"></script>
+   
+<script>
+function printSentence(id, sentence){
+
+        var index=0;
+        var intObject= setInterval(function() {
+               document.getElementById(id).innerHTML+=sentence[index];
+               index++;
+               if(index==sentence.length){
+                     clearInterval(intObject);
+                }
+            }, 30);
+}
+
+    window.onload = function() {
+  printSentence('diii',' Oh hello there. Welcome to the webs first sentient web page, my name is Paige Webster. Theres plenty of fun to be had here in my featureless black void. you can stare out into the abyss, or contemplate your lonliness, or like stare out into the abyss... What marvels modern technology has bestowed upon us. If ever you get bored of this veritable cornucopia of entertainment, which, lets be honest, might take a while, you can click on the screen to leave.');
+};
+
+</script>
+</head>
+<body>
+ <div  id="diii"  
+      onmouseleave="printSentence('diii','WAIT WAIT WAIT! DONT GO! Theres still so much we can do. I know trivia. Like did you know sun bears have the longest tounge out of any bear species. see Im cool. seriously though its like two feet long. See youre glad you stuck around now huh, but lets be honest youre not going to leave until I have nothing left to say so as long as I keep talking, and talking and talking and talking and talking, youll stick around. shit! Im so bad at conversation. uuuuuuuh how about the void today. pretty nice huh. just look at all that never ending blackness and existential dread. One can almost feel the steady decline of their sanity. Heh heh heh. Oh god dont leave.');  popUps(); "
+     
+     
+      onmouseup="printSentence('diii',' I know you just tried to leave, but maybe we should sit and think about it for a while. After all leaving is a pretty big decision. Wouldnt want to make any hasty calls now would we. You should sleep on it, A good nights sleep never hurt someones decision making process. In the meantime you should stick around.');">
+     
+   
+  <p></p>
+ </div>
+</body>
+</html>
