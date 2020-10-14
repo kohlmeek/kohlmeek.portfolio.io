@@ -1,0 +1,165 @@
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+    z-index: 3;
+ 
+}
+.image2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+    z-index: 1;
+  
+}
+.red {
+  position: absolute;
+    width:690px;
+    height:432px;
+    background: #cc3838;
+  top: 0;
+  left: 0;
+    z-index: 3;
+   transition: width 1s;
+
+}
+
+
+.Rcontainer{
+     position: absolute;
+    width:690px;
+    height:432px;
+    top: 57px;
+  left: 61px;
+    z-index: 3;
+}
+
+.Rcontainer:hover > .red{
+    width:68px;
+}
+
+.Rtext{
+     position: absolute;
+    top: 90px;
+  left: 64px;
+    Color:white;
+    font-size:375%;
+    writing-mode: vertical-rl;
+    z-index:5;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.blue {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+    background: #387acc;
+    z-index: 3;
+     width:691px;
+    height:437px;
+    transition: width 1s;
+    
+  
+}
+.Bcontainer{
+    position: absolute;
+  top: 489px;
+  left: 61px;
+     width:691px;
+    height:437px;
+    z-index: 3;
+}
+
+.Bcontainer:hover > .blue{
+    width:68px;
+}
+
+.Btext{
+     position: absolute;
+    top: 610px;
+  left: 64px;
+    Color:white;
+    font-size:375%;
+    writing-mode: vertical-rl;
+    z-index:5;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.yellow {
+ position: absolute;
+  top: 0px;
+  left: 0px;
+    background: #cacc38;
+    z-index: 3;
+     width:690px;
+    height:437px;
+    transition: width 1s;
+    
+  
+}
+.Ycontainer{
+    position: absolute;
+  top: 489px;
+  left: 752px;
+     width:690px;
+    height:437px;
+    z-index: 3;
+}
+
+.Ycontainer:hover > .yellow{
+    width:68px;
+}
+
+.Ytext{
+     position: absolute;
+    top: 575px;
+  left: 755px;
+    Color:white;
+    font-size:375%;
+    writing-mode: vertical-rl;
+    z-index:5;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.green {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+    z-index: 3;
+    background: #38cc81;
+       width:689px;
+    height:433px;
+    transition: width 1s;
+}
+
+.Gcontainer{
+    position: absolute;
+  top: 57px;
+  left: 752px;
+     width:689px;
+    height:433px;
+    z-index: 3;
+}
+
+.Gcontainer:hover > .green{
+    width:68px;
+}
+.Gtext{
+     position: absolute;
+    top: 80px;
+  left: 765px;
+    Color:white;
+    font-size:375%;
+    writing-mode: vertical-rl;
+    z-index:5;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
