@@ -170,6 +170,15 @@ img{
   
 }
 
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin:10px;
+ width:200%;
+ text-align:center;
+  float:left;
+  
+}
+
 .zoom:hover {
   transform: scale(1.5); /* (1.5% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
