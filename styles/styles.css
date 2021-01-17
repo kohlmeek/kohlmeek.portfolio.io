@@ -170,7 +170,7 @@ img{
   
 }
 
-.zoom {
+.zoom1 {
   transition: transform .2s; /* Animation */
   margin:10px;
  width:200%;
